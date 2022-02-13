@@ -863,7 +863,7 @@ BO_ 1011 ID3F3UI_odo: 3 ChassisBus
 BO_ 1013 ID3F5VCFRONT_lighting: 8 VehicleBus
  SG_ VCFRONT_DRLLeftStatus : 36|2@1+ (1,0) [0|3] ""  Receiver
  SG_ VCFRONT_DRLRightStatus : 38|2@1+ (1,0) [0|3] ""  Receiver
- SG_ VCFRONT_ambientLightingBrightnes : 8|8@1+ (0.5,0) [0|127] "%"  Receiver
+ SG_ VCFRONT_ambientLightingBrightness : 8|8@1+ (0.5,0) [0|127] "%"  Receiver
  SG_ VCFRONT_approachLightingRequest : 25|1@1+ (1,0) [0|1] ""  Receiver
  SG_ VCFRONT_courtesyLightingRequest : 24|1@1+ (1,0) [0|1] ""  Receiver
  SG_ VCFRONT_fogLeftStatus : 40|2@1+ (1,0) [0|3] ""  Receiver
@@ -3688,7 +3688,7 @@ VAL_ 1001 DAS_mirrorFoldRequest 0 "NONE" 1 "FOLD" 2 "UNFOLD" 3 "SNA" ;
 VAL_ 1011 UI_odometer 16777215 "SNA" ;
 VAL_ 1013 VCFRONT_DRLLeftStatus 2 "LIGHT_FAULT" 0 "LIGHT_OFF" 1 "LIGHT_ON" 3 "LIGHT_SNA" ;
 VAL_ 1013 VCFRONT_DRLRightStatus 2 "LIGHT_FAULT" 0 "LIGHT_OFF" 1 "LIGHT_ON" 3 "LIGHT_SNA" ;
-VAL_ 1013 VCFRONT_ambientLightingBrightnes 255 "SNA" ;
+VAL_ 1013 VCFRONT_ambientLightingBrightness 255 "SNA" ;
 VAL_ 1013 VCFRONT_fogLeftStatus 2 "LIGHT_FAULT" 0 "LIGHT_OFF" 1 "LIGHT_ON" 3 "LIGHT_SNA" ;
 VAL_ 1013 VCFRONT_fogRightStatus 2 "LIGHT_FAULT" 0 "LIGHT_OFF" 1 "LIGHT_ON" 3 "LIGHT_SNA" ;
 VAL_ 1013 VCFRONT_hazardLightRequest 1 "HAZARD_REQUEST_BUTTON" 6 "HAZARD_REQUEST_CAR_ALARM" 5 "HAZARD_REQUEST_CRASH" 7 "HAZARD_REQUEST_DAS" 2 "HAZARD_REQUEST_LOCK" 4 "HAZARD_REQUEST_MISLOCK" 0 "HAZARD_REQUEST_NONE" 8 "HAZARD_REQUEST_UDS" 3 "HAZARD_REQUEST_UNLOCK" ;
